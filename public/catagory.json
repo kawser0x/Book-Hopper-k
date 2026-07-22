@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Story",
+    "description": "Fictional narratives, novels, and creative tales."
+  },
+  {
+    "id": 2,
+    "name": "Tech",
+    "description": "Books related to technology, programming, software development, and computing."
+  },
+  {
+    "id": 3,
+    "name": "Science",
+    "description": "Explorations of natural phenomena, scientific theories, and empirical research."
+  }
+]
