@@ -5,13 +5,13 @@ import logo from "../../public/assets/icon.png";
 const Navbar = () => {
   const links = (
     <>
-      <li>
+      <li className="hover:underline" >
         <Link href={"/"}>Home</Link>
       </li>
-      <li>
+      <li className="hover:underline">
         <Link href={"/"}>All Books</Link>
       </li>
-      <li>
+      <li className="hover:underline">
         <Link href={"/"}>About Us</Link>
       </li>
     </>
@@ -50,7 +50,7 @@ const Navbar = () => {
           className="rounded-full"></Image>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <ul className="flex gap-2 px-1 ">{links}</ul>
       </div>
       <div className="navbar-end">
         <Link href={"/"}>
