@@ -5,8 +5,8 @@ import BooksPage from "./books/page";
 export default function Home() {
   return (
     <div className="p-5 space-y-5">
-      <Hero />
       <Latest />
+      <Hero />
       <BooksPage />
     </div>
   );

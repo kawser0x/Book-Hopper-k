@@ -1,122 +1,159 @@
 [
-  {
-    "id": 1,
-    "title": "The Silent Echo",
-    "author": "Elara Vance",
-    "description": "A thrilling tale of a musician who discovers a lost symphony that has the power to alter memories.",
-    "category": "Story",
-    "available_quantity": 15,
-    "image_url": "https://example.com/images/silent-echo.jpg",
-    "details": "This captivating novel delves deep into the psychological weight of memory and music. The protagonist, Elara, stumbles upon a forgotten manuscript in a dusty attic in Vienna. As the symphony is played, the notes possess a mysterious frequency that triggers lost memories in anyone who hears them. The story explores themes of loss, identity, and the healing power of art. Critics have praised the lyrical prose and intricate character development. It is a profound reflection on what it means to remember and to forget, culminating in a breathless finale."
-  },
-  {
-    "id": 2,
-    "title": "Algorithms Unleashed",
-    "author": "David Chen",
-    "description": "A comprehensive guide to understanding complex algorithms through real-world programming examples.",
-    "category": "Tech",
-    "available_quantity": 42,
-    "image_url": "https://example.com/images/algorithms-unleashed.jpg",
-    "details": "Algorithms Unleashed is designed for both beginners and experienced programmers looking to sharpen their problem-solving skills. It breaks down complex data structures into easily digestible concepts using clear visual diagrams. Readers will learn how to implement sorting, searching, and graph algorithms in Python and Java. Each chapter includes practical exercises and real-world scenarios to test your knowledge. The book also covers time and space complexity, teaching you how to write highly efficient code. By the end of this guide, you will be fully prepared for rigorous technical interviews."
-  },
-  {
-    "id": 3,
-    "title": "Quantum Realms",
-    "author": "Dr. Sarah Kepler",
-    "description": "An accessible journey into the strange and fascinating world of quantum mechanics and its implications for reality.",
-    "category": "Science",
-    "available_quantity": 8,
-    "image_url": "https://example.com/images/quantum-realms.jpg",
-    "details": "Dr. Kepler takes readers on a mind-bending journey through the subatomic world. The book demystifies complex topics like quantum entanglement, superposition, and wave-particle duality. It successfully avoids heavy mathematics, focusing instead on conceptual understanding and real-world implications. Readers will discover how quantum mechanics is driving the development of future technologies like quantum computing. The narrative is highly engaging, weaving historical anecdotes with cutting-edge modern research. Perfect for science enthusiasts looking for a rigorous yet highly accessible read."
-  },
-  {
-    "id": 4,
-    "title": "Whispers of the Old City",
-    "author": "Marcus Thorne",
-    "description": "A historical mystery set in the winding alleys of a 19th-century European capital where secrets never die.",
-    "category": "Story",
-    "available_quantity": 23,
-    "image_url": "https://example.com/images/whispers-old-city.jpg",
-    "details": "Set against the backdrop of a gloomy 19th-century European city, this historical mystery is atmospheric and tense. Detective Thorne is drawn into a web of conspiracy when a prominent aristocrat is found murdered. As he investigates the winding alleys and hidden catacombs, dark secrets of the city's elite are brought to light. The novel is rich in historical detail, capturing the grim essence of the Victorian era perfectly. Twists and turns keep the reader guessing until the very last page. Fans of classic noir and historical fiction will be thoroughly captivated."
-  },
-  {
-    "id": 5,
-    "title": "Mastering Cloud Architecture",
-    "author": "Priya Sharma",
-    "description": "Deep dive into designing scalable, resilient, and cost-effective cloud-native applications.",
-    "category": "Tech",
-    "available_quantity": 11,
-    "image_url": "https://example.com/images/cloud-architecture.jpg",
-    "details": "This comprehensive guide explores the architecture of modern cloud ecosystems from the ground up. It covers essential topics such as microservices, containerization with Docker, and orchestration using Kubernetes. Readers will learn industry best practices for designing systems that are highly available and scalable. The author shares invaluable insights from years of experience in deploying enterprise-level applications. Security, cost-optimization, and continuous integration pipelines are also discussed in extensive detail. Case studies of successful cloud migrations provide practical context for the theoretical concepts."
-  },
-  {
-    "id": 6,
-    "title": "The Cosmic Code",
-    "author": "James Halford",
-    "description": "Exploring the mathematical foundations of the universe and how numbers shape the cosmos.",
-    "category": "Science",
-    "available_quantity": 35,
-    "image_url": "https://example.com/images/cosmic-code.jpg",
-    "details": "The Cosmic Code explores the profound connection between mathematics and the physical universe. It traces the fascinating history of mathematical physics from Pythagoras all the way to modern string theory. The author compellingly argues that the universe is fundamentally a mathematical structure. Complex ideas are explained through intuitive analogies and beautifully rendered clear illustrations. Topics include chaos theory, fractal geometry, and the mind-bending mathematics of black holes. The book inspires a deep sense of wonder about the elegant order underlying the cosmos."
-  },
-  {
-    "id": 7,
-    "title": "The Last Navigator",
-    "author": "Elena Rostova",
-    "description": "An epic sci-fi adventure following the sole survivor of a legendary interstellar navigation guild.",
-    "category": "Story",
-    "available_quantity": 19,
-    "image_url": "https://example.com/images/last-navigator.jpg",
-    "details": "In a distant future where hyperspace travel is failing, humanity relies on a dying breed of cosmic navigators. The protagonist is thrust into an epic journey across the galaxy to find a legendary, lost star map. Along the way, they must navigate treacherous asteroid fields and evade hostile, warmongering alien factions. The world-building is incredibly expansive, introducing diverse planetary systems and unique interstellar cultures. It is a story of survival, sacrifice, and the enduring human spirit against impossible odds. Sci-fi fans will find a new favorite in this stellar, pulse-pounding adventure."
-  },
-  {
-    "id": 8,
-    "title": "The AI Handbook",
-    "author": "Alan Turing Jr.",
-    "description": "A practical manual for integrating artificial intelligence and machine learning into modern software products.",
-    "category": "Tech",
-    "available_quantity": 56,
-    "image_url": "https://example.com/images/ai-handbook.jpg",
-    "details": "The AI Handbook bridges the critical gap between theoretical machine learning and practical software application. It provides actionable strategies for integrating intelligent AI features into existing software platforms and apps. Chapters cover natural language processing, computer vision, and building reliable predictive analytics engines. Ethical considerations, data privacy, and bias mitigation in AI models are thoroughly and thoughtfully examined. The book includes robust code snippets in Python, utilizing popular frameworks like TensorFlow and PyTorch. Prepare your business and your codebase for the AI-driven future with this definitive guide."
-  },
-  {
-    "id": 9,
-    "title": "Neuroplasticity Explained",
-    "author": "Dr. Amina El-Sayed",
-    "description": "Unlocking the brain's remarkable ability to rewire itself and adapt to new challenges and trauma.",
-    "category": "Science",
-    "available_quantity": 27,
-    "image_url": "https://example.com/images/neuroplasticity.jpg",
-    "details": "Neuroplasticity Explained revolutionizes our understanding of the human brain and its capabilities. Dr. El-Sayed presents groundbreaking research demonstrating the brain's ability to heal and reorganize itself physically. The book offers practical, science-backed techniques for harnessing neuroplasticity to overcome bad habits and enhance learning. It features deeply inspiring case studies of stroke survivors and trauma victims who have completely reclaimed their lives. The complex interplay between mindfulness, physical exercise, and cognitive brain health is explored in depth. It empowers readers to take active control of their long-term cognitive well-being."
-  },
-  {
-    "id": 10,
-    "title": "Beyond the Horizon",
-    "author": "Julian Crane",
-    "description": "A heartwarming coming-of-age novel about two friends who embark on a cross-country road trip to find a lost relative.",
-    "category": "Story",
-    "available_quantity": 14,
-    "image_url": "https://example.com/images/beyond-horizon.jpg",
-    "details": "Beyond the Horizon is a deeply touching exploration of childhood friendship and adult self-discovery. Two friends reunite after years of bitter estrangement, embarking on a spontaneous cross-country road trip. The grueling yet beautiful journey forces them to confront past regrets, unspoken feelings, and uncertain futures. Beautifully descriptive prose paints a vivid, nostalgic picture of the winding American landscape. Humor, heartbreak, and healing are woven seamlessly throughout their turbulent adventure. It is a poignant reminder that the journey itself is often just as important as the final destination."
-  },
-  {
-    "id": 11,
+    {
+      "id": 1,
+      "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+      "author": "HECTOR GARCIA AND FRANCESC MIRALLES",
+      "description": "Discover the Japanese concept of ikigai—the happiness of always being busy—and how to find your own life purpose.",
+      "category": "Science",
+      "available_quantity": 25,
+      "image_url": "/assets/ikigai.jpg",
+      "details": "Ikigai draws on interviews with residents of Okinawa, an island known for having the highest concentration of centenarians in the world. The authors explore the daily habits, diet, physical activity, and social connections that contribute to a long, healthy life. At the center of Okinawan philosophy is the concept of 'ikigai,' which roughly translates to 'a reason for being.' The book guides readers through finding the intersection of what you love, what you are good at, what the world needs, and what you can get paid for. By uncovering your personal ikigai, you can reduce stress, foster resilience, and add meaningful years to your life. It is an inspiring, practical, and deeply philosophical read that transforms how you approach everyday living."
+    },
+    {
+      "id": 2,
+      "title": "The Alchemist",
+      "author": "PAULO COELHO",
+      "description": "A mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure.",
+      "category": "Story",
+      "available_quantity": 40,
+      "image_url": "/assets/alchemist.jpg",
+      "details": "The Alchemist follows the journey of a young Andalusian shepherd named Santiago who dreams of finding a hidden treasure near the Egyptian pyramids. Leaving behind his flock, he embarks on an epic transcontinental adventure that tests his courage and faith. Along the way, he encounters a mysterious king, a crystal merchant, and a powerful alchemist who teaches him vital spiritual lessons. The core message of the novel emphasizes listening to one's heart, recognizing omens, and understanding that the pursuit of a dream is often more valuable than the treasure itself. Written in poetic and accessible prose, Paulo Coelho's masterpiece has enchanted millions of readers worldwide. It remains a timeless fable about destiny, personal growth, and the interconnectedness of all things in the universe."
+    },
+    {
+      "id": 3,
+      "title": "Atomic Habits",
+      "author": "JAMES CLEAR",
+      "description": "An easy and proven way to build good habits and break bad ones using tiny changes in behavior.",
+      "category": "Science",
+      "available_quantity": 50,
+      "image_url": "/assets/AtomicHabits.jpg",
+      "details": "Atomic Habits provides a proven framework for improving every day through incremental behavioral changes. James Clear argues that radical transformations are not the result of massive overhauls, but rather the cumulative effect of hundreds of small decisions. Drawing on concepts from biology, psychology, and neuroscience, the book introduces the four laws of behavior change: make it obvious, make it attractive, make it easy, and make it satisfying. Readers learn practical strategies to overcome lack of motivation, design better environments, and track progress effectively. Filled with inspiring real-world stories of Olympic athletes, successful artists, and business leaders, this guide offers an actionable blueprint for personal mastery. It permanently shifts your perspective on how habits work and how you can take control of your routines."
+    },
+    {
+      "id": 4,
+      "title": "Pather Panchali",
+      "author": "BIBHUTIBHUSHAN BANDYOPADHYAY",
+      "description": "A classic Bengali novel depicting the rural life of an impoverished family in Bengal.",
+      "category": "Story",
+      "available_quantity": 12,
+      "image_url": "/assets/Pather Panchali.jpg",
+      "details": "Pather Panchali is a monumental work of Bengali literature that vividly captures the rustic beauty and harsh realities of rural Bengal. The narrative revolves around the lives of Harihar Ray, his wife Sarbajaya, and their two children, Opu and Durga. Set against the lush, green backdrop of a remote village, the novel portrays the daily struggles of a lower-middle-class family. Despite financial destitution, the children find immense joy in simple wonders like catching a glimpse of a distant train or playing in the rain. The author's poetic and deeply empathetic prose paints an unforgettable picture of human endurance, innocence, and nostalgia. It is widely considered a literary masterpiece that forms the foundation of classic Bengali storytelling."
+    },
+    {
+      "id": 5,
+      "title": "Sonar Kella",
+      "author": "SATYAJIT RAY",
+      "description": "A thrilling mystery adventure featuring the iconic Bengali sleuth Feluda in Rajasthan.",
+      "category": "Story",
+      "available_quantity": 30,
+      "image_url": "/assets/Sonar Kella.jpg",
+      "details": "Sonar Kella is one of Satyajit Ray's finest mystery novels, introducing readers to the brilliant private investigator Pradosh Chandra Mitter, famously known as Feluda. The plot is set into motion when a young boy named Mukul claims to remember details from his past life involving a fortress made of gold in Rajasthan. Sensing a potential danger, Feluda, along with his cousin Topshe and the quirky thriller writer Lalmohan Ganguly (Jatayu), embarks on a dangerous journey. They must race against two cunning fraudsters who are trying to exploit the boy's memories for treasure. Filled with rich cultural descriptions of Rajasthan, witty dialogue, and suspenseful twists, the book is a treat for mystery lovers of all ages. It showcases Ray's exceptional skill in crafting intelligent, fast-paced narratives with brilliant character dynamics."
+    },
+    {
+      "id": 6,
+      "title": "Chokher Bali",
+      "author": "RABINDRANATH TAGORE",
+      "description": "A psychological novel exploring complex relationships, passion, and betrayal in 19th-century Bengal.",
+      "category": "Story",
+      "available_quantity": 18,
+      "image_url": "/assets/Chokher Bali.jpg",
+      "details": "Chokher Bali is a brilliant exploration of human psychology, forbidden love, and social norms in nineteenth-century Bengal. The story centers around Binodini, an educated and strong-willed young widow who enters the household of her friend Ashalata and her husband Mahendra. As dynamics shift, Mahendra becomes infatuated with Binodini, leading to a tangled web of emotional manipulation, jealousy, and guilt. Meanwhile, Mahendra's best friend Bihari maintains a grounded, moral contrast to the chaotic passions of the other characters. Tagore brilliantly examines the plight of widows and the constraints placed on women during that era through vivid character sketches. The novel remains a timeless classic due to its modern handling of marital discord and emotional complexity."
+    },
+    {
+      "id": 7,
+      "title": "Srikanta",
+      "author": "SARAT CHANDRA CHATTOPADHYAY",
+      "description": "An episodic classic novel reflecting the wandering spirit and poignant human experiences of early 20th-century Bengal.",
+      "category": "Story",
+      "available_quantity": 15,
+      "image_url": "/assets/Srikanta.jpg",
+      "details": "Srikanta is a deeply moving, semi-autobiographical masterpiece by Sarat Chandra Chattopadhyay that explores the life of an unconventional wanderer. The story is narrated by Srikanta himself as he reflects on various phases of his life, from his restless childhood to adulthood. Along his journey, he meets a diverse cast of memorable characters, most notably Rajlakshmi, a talented courtesan with a tragic past, and the mysterious wanderer Indranath. The novel breaks away from conventional social morality, offering profound empathy for society's outcasts, vagabonds, and marginalized individuals. Chattopadhyay's lyrical and poignant writing style evokes deep emotional resonance regarding love, regret, and freedom. It stands as a cornerstone of Bengali fiction that continues to captivate generations of readers."
+    },
+    {
+      "id": 8,
+      "title": "Padma Nadir Majhi",
+      "author": "MANIK BANDOPADHYAY",
+      "description": "A realistic portrayal of the hardships and resilience of fishermen living along the banks of the Padma River.",
+      "category": "Story",
+      "available_quantity": 22,
+      "image_url": "/assets/Padma Nadir Majhi.jpg",
+      "details": "Padma Nadir Majhi is a landmark social-realist novel in Bengali literature, focusing on the lives of fishermen on the mighty Padma River. The story revolves around Kuber, a poor boatman struggling against both relentless natural elements and ruthless economic exploitation by local merchants. The novel provides a gritty, unfiltered look at the poverty, superstition, and community bonds that define the lives of riverine villagers. Despite constant suffering, Kuber's life is complicated further by human desires, moral dilemmas, and the temptation of a better life on a distant island. Manik Bandopadhyay’s masterful prose captures the raw power of nature and the psychological resilience of ordinary people. It remains an essential study of rural sociology and compelling storytelling."
+    },
+    {
+      "id": 9,
+      "title": "Himu",
+      "author": "HUMAYUN AHMED",
+      "description": "The quirky adventures of an enigmatic youth dressed in a yellow Punjabi who wanders the streets of Dhaka.",
+      "category": "Story",
+      "available_quantity": 35,
+      "image_url": "/assets/Himu.jpg",
+      "details": "Himu is one of the most iconic and beloved fictional characters created by the legendary Bengali author Humayun Ahmed. Dressed perpetually in a bright yellow Punjabi without pockets, Himu wanders aimlessly through the chaotic streets of Dhaka with no fixed job or destination. Raised by an eccentric father who trained him to become a spiritual master through unconventional methods, Himu often interacts with ordinary people while solving their problems using bizarre psychological tricks. He frequently embraces falsehoods as a way to reveal deeper truths about human nature. The novel blends lighthearted humor, poignant philosophy, and subtle social commentary seamlessly. It has inspired a massive cult following and remains a definitive piece of modern popular Bengali literature."
+    },
+    {
+      "id": 10,
+      "title": "Misir Ali Omnibus",
+      "author": "HUMAYUN AHMED",
+      "description": "A collection of psychological thriller and rational mystery stories featuring the logical professor Misir Ali.",
+      "category": "Science",
+      "available_quantity": 28,
+      "image_url": "/assets/Misir Ali Omnibus.jpg",
+      "details": "Misir Ali is a unique character in Bengali literature—a university psychology professor who uses science, logic, and rational analysis to investigate supernatural occurrences. Unlike typical detectives, Misir Ali is often approached with bizarre, seemingly unexplainable events, such as ghosts, telepathy, or multiple personalities. Instead of accepting the paranormal, he dives deep into the human psyche to uncover scientific explanations behind illusions and fears. Humayun Ahmed weaves intricate plots that keep readers guessing while challenging the boundaries between sanity and madness. The omnibus edition compiles some of the most chilling and thought-provoking cases solved by this intellectual master. It is an absolute favorite for readers who enjoy cerebral mysteries mixed with deep human emotion."
+    },
+    {
+      "id": 11,
+      "title": "Srabon Megher Din",
+      "author": "HUMAYUN AHMED",
+      "description": "A poignant romantic drama set in a vibrant rural village filled with traditional music and unspoken love.",
+      "category": "Story",
+      "available_quantity": 20,
+      "image_url": "/assets/Srabon Megher Din.jpg",
+      "details": "Srabon Megher Din is a deeply emotional romantic novel that beautifully captures the essence of rural Bangladeshi culture, music, and tradition. The story revolves around Moti, a talented folk singer whose soulful voice resonates deeply across his village. Amidst local politics, rural festivities, and social hierarchy, a tragic love story unfolds, fraught with sacrifice and unrequited longing. Humayun Ahmed's narrative is rich with sensory details, bringing alive the sounds of traditional instruments, the rainy monsoon season, and simple village life. The characters are painted with realistic flaws and immense warmth, making their joys and sorrows deeply relatable. It is a timeless tale that lingers in the heart long after the final page is turned."
+    },
+    {
+      "id": 12,
+      "title": "Deyal",
+      "author": "HUMAYUN AHMED",
+      "description": "A historical fiction novel detailing the turbulent political landscape and aftermath of Bangladesh's liberation war.",
+      "category": "Story",
+      "available_quantity": 16,
+      "image_url": "/assets/Deyal.jpg",
+      "details": "Deyal is Humayun Ahmed's final historical novel, focusing on the critical political shifts and social turmoil in Bangladesh following the 1971 liberation war. The book explores the complex power dynamics, political aspirations, and tragic events leading up to the assassination of Sheikh Mujibur Rahman. Through a blend of real historical figures and fictional characters, Ahmed provides a nuanced, multi-perspective view of a fractured nation trying to find its footing. The narrative highlights human vulnerability amidst grand historical currents, shedding light on grief, hope, and resilience. Despite dealing with heavy historical subject matter, the author's signature storytelling style keeps the narrative engaging and deeply readable. It stands as a significant literary document of modern South Asian history."
+    },
+    {
+      "id": 13,
+      "title": "Amar Bondhu Rashed",
+      "author": "MUHAMMED ZAFAR IQBAL",
+      "description": "A touching children's historical novel about schoolboys during the 1971 Liberation War of Bangladesh.",
+      "category": "Story",
+      "available_quantity": 25,
+      "image_url": "/assets/Amar Bondhu Rashed.jpg",
+      "details": "Amar Bondhu Rashed is an exceptionally moving novel written by Muhammed Zafar Iqbal, centered around the 1971 Bangladesh Liberation War. The story is narrated from the perspective of a schoolboy whose life changes forever when a mysterious, bright student named Rashed joins their class. Rashed quickly becomes a beloved friend, deeply invested in the political awakening and rights of his countrymen. When the Pakistan army cracks down on civilians, Rashed and his friends bravely participate in underground resistance efforts, risking everything for freedom. The book portrays the ultimate sacrifices made by young individuals with heartbreaking honesty and patriotic fervor. It is an essential read that educates younger generations about courage, friendship, and the heavy cost of liberty."
+    },{
+    "id": 14,
     "title": "Full Stack Development",
     "author": "Chloe Martinez",
     "description": "Step-by-step tutorials on building robust web applications from frontend interfaces to backend databases.",
     "category": "Tech",
     "available_quantity": 31,
-    "image_url": "https://example.com/images/full-stack.jpg",
+    "image_url": "/assets/Full Stack Development.jpg",
     "details": "This book is the ultimate roadmap for aspiring full-stack developers looking to build production-ready applications. It takes you systematically from basic HTML/CSS all the way to deploying complex, data-driven web platforms. The frontend section focuses heavily on modern, component-based frameworks like React and Vue.js. The backend chapters provide deep dives into Node.js, Express, and building secure RESTful APIs. Database management, utilizing both relational SQL and flexible NoSQL databases, is clearly explained with examples. You will build a complete, functional e-commerce application from scratch as a capstone project."
-  },
-  {
-    "id": 12,
-    "title": "Genetics of Tomorrow",
-    "author": "Liam Gallagher",
-    "description": "An analysis of CRISPR technology, gene editing, and the ethical dilemmas facing the future of biology.",
-    "category": "Science",
-    "available_quantity": 18,
-    "image_url": "https://example.com/images/genetics-tomorrow.jpg",
-    "details": "Genetics of Tomorrow tackles the incredible scientific advancements and terrifying ethical minefields of modern biology. It provides a crystal-clear explanation of how CRISPR-Cas9 allows for cheap, precise genetic editing at the molecular level. The utopian potential to completely eradicate hereditary diseases is carefully weighed against the dystopian dangers of 'designer babies'. The author extensively explores the ecological impact and potential catastrophic risks of deploying gene drives on wild animal populations. Interviews with leading global bioethicists provide diverse, conflicting perspectives on the future of human evolution. Essential reading for anyone interested in the rapidly approaching future of healthcare and humanity."
+  },{
+    "id": 15,
+    "title": "The AI Handbook",
+    "author": "Alan Turing Jr.",
+    "description": "A practical manual for integrating artificial intelligence and machine learning into modern software products.",
+    "category": "Tech",
+    "available_quantity": 56,
+    "image_url": "/assets/The AI Handbook.jpg",
+    "details": "The AI Handbook bridges the critical gap between theoretical machine learning and practical software application. It provides actionable strategies for integrating intelligent AI features into existing software platforms and apps. Chapters cover natural language processing, computer vision, and building reliable predictive analytics engines. Ethical considerations, data privacy, and bias mitigation in AI models are thoroughly and thoughtfully examined. The book includes robust code snippets in Python, utilizing popular frameworks like TensorFlow and PyTorch. Prepare your business and your codebase for the AI-driven future with this definitive guide."
+  },{
+    "id": 16,
+    "title": "Mastering Cloud Architecture",
+    "author": "Priya Sharma",
+    "description": "Deep dive into designing scalable, resilient, and cost-effective cloud-native applications.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url": "/assets/Mastering Cloud Architecture.jpg",
+    "details": "This comprehensive guide explores the architecture of modern cloud ecosystems from the ground up. It covers essential topics such as microservices, containerization with Docker, and orchestration using Kubernetes. Readers will learn industry best practices for designing systems that are highly available and scalable. The author shares invaluable insights from years of experience in deploying enterprise-level applications. Security, cost-optimization, and continuous integration pipelines are also discussed in extensive detail. Case studies of successful cloud migrations provide practical context for the theoretical concepts."
   }
-]
+  ]
