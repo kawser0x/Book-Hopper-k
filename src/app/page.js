@@ -1,10 +1,13 @@
 import Hero from "@/components/Hero";
-import Image from "next/image";
+import Latest from "@/components/Latest";
+import BooksPage from "./books/page";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="p-5 space-y-5">
       <Hero />
+      <Latest />
+      <BooksPage />
     </div>
   );
 }
