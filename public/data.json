@@ -36,7 +36,7 @@
       "description": "A classic Bengali novel depicting the rural life of an impoverished family in Bengal.",
       "category": "Story",
       "available_quantity": 12,
-      "image_url": "/assets/Pather Panchali.jpg",
+      "image_url": "/assets/PatherPanchali.jpg",
       "details": "Pather Panchali is a monumental work of Bengali literature that vividly captures the rustic beauty and harsh realities of rural Bengal. The narrative revolves around the lives of Harihar Ray, his wife Sarbajaya, and their two children, Opu and Durga. Set against the lush, green backdrop of a remote village, the novel portrays the daily struggles of a lower-middle-class family. Despite financial destitution, the children find immense joy in simple wonders like catching a glimpse of a distant train or playing in the rain. The author's poetic and deeply empathetic prose paints an unforgettable picture of human endurance, innocence, and nostalgia. It is widely considered a literary masterpiece that forms the foundation of classic Bengali storytelling."
     },
     {
@@ -46,7 +46,7 @@
       "description": "A thrilling mystery adventure featuring the iconic Bengali sleuth Feluda in Rajasthan.",
       "category": "Story",
       "available_quantity": 30,
-      "image_url": "/assets/Sonar Kella.jpg",
+      "image_url": "/assets/SonarKella.jpg",
       "details": "Sonar Kella is one of Satyajit Ray's finest mystery novels, introducing readers to the brilliant private investigator Pradosh Chandra Mitter, famously known as Feluda. The plot is set into motion when a young boy named Mukul claims to remember details from his past life involving a fortress made of gold in Rajasthan. Sensing a potential danger, Feluda, along with his cousin Topshe and the quirky thriller writer Lalmohan Ganguly (Jatayu), embarks on a dangerous journey. They must race against two cunning fraudsters who are trying to exploit the boy's memories for treasure. Filled with rich cultural descriptions of Rajasthan, witty dialogue, and suspenseful twists, the book is a treat for mystery lovers of all ages. It showcases Ray's exceptional skill in crafting intelligent, fast-paced narratives with brilliant character dynamics."
     },
     {
@@ -56,7 +56,7 @@
       "description": "A psychological novel exploring complex relationships, passion, and betrayal in 19th-century Bengal.",
       "category": "Story",
       "available_quantity": 18,
-      "image_url": "/assets/Chokher Bali.jpg",
+      "image_url": "/assets/ChokherBali.jpg",
       "details": "Chokher Bali is a brilliant exploration of human psychology, forbidden love, and social norms in nineteenth-century Bengal. The story centers around Binodini, an educated and strong-willed young widow who enters the household of her friend Ashalata and her husband Mahendra. As dynamics shift, Mahendra becomes infatuated with Binodini, leading to a tangled web of emotional manipulation, jealousy, and guilt. Meanwhile, Mahendra's best friend Bihari maintains a grounded, moral contrast to the chaotic passions of the other characters. Tagore brilliantly examines the plight of widows and the constraints placed on women during that era through vivid character sketches. The novel remains a timeless classic due to its modern handling of marital discord and emotional complexity."
     },
     {
@@ -76,7 +76,7 @@
       "description": "A realistic portrayal of the hardships and resilience of fishermen living along the banks of the Padma River.",
       "category": "Story",
       "available_quantity": 22,
-      "image_url": "/assets/Padma Nadir Majhi.jpg",
+      "image_url": "/assets/PadmaNadirMajhi.jpg",
       "details": "Padma Nadir Majhi is a landmark social-realist novel in Bengali literature, focusing on the lives of fishermen on the mighty Padma River. The story revolves around Kuber, a poor boatman struggling against both relentless natural elements and ruthless economic exploitation by local merchants. The novel provides a gritty, unfiltered look at the poverty, superstition, and community bonds that define the lives of riverine villagers. Despite constant suffering, Kuber's life is complicated further by human desires, moral dilemmas, and the temptation of a better life on a distant island. Manik Bandopadhyay’s masterful prose captures the raw power of nature and the psychological resilience of ordinary people. It remains an essential study of rural sociology and compelling storytelling."
     },
     {
@@ -96,7 +96,7 @@
       "description": "A collection of psychological thriller and rational mystery stories featuring the logical professor Misir Ali.",
       "category": "Science",
       "available_quantity": 28,
-      "image_url": "/assets/Misir Ali Omnibus.jpg",
+      "image_url": "/assets/MisirAliOmnibus.jpg",
       "details": "Misir Ali is a unique character in Bengali literature—a university psychology professor who uses science, logic, and rational analysis to investigate supernatural occurrences. Unlike typical detectives, Misir Ali is often approached with bizarre, seemingly unexplainable events, such as ghosts, telepathy, or multiple personalities. Instead of accepting the paranormal, he dives deep into the human psyche to uncover scientific explanations behind illusions and fears. Humayun Ahmed weaves intricate plots that keep readers guessing while challenging the boundaries between sanity and madness. The omnibus edition compiles some of the most chilling and thought-provoking cases solved by this intellectual master. It is an absolute favorite for readers who enjoy cerebral mysteries mixed with deep human emotion."
     },
     {
@@ -106,7 +106,7 @@
       "description": "A poignant romantic drama set in a vibrant rural village filled with traditional music and unspoken love.",
       "category": "Story",
       "available_quantity": 20,
-      "image_url": "/assets/Srabon Megher Din.jpg",
+      "image_url": "/assets/SrabonMegherDin.jpg",
       "details": "Srabon Megher Din is a deeply emotional romantic novel that beautifully captures the essence of rural Bangladeshi culture, music, and tradition. The story revolves around Moti, a talented folk singer whose soulful voice resonates deeply across his village. Amidst local politics, rural festivities, and social hierarchy, a tragic love story unfolds, fraught with sacrifice and unrequited longing. Humayun Ahmed's narrative is rich with sensory details, bringing alive the sounds of traditional instruments, the rainy monsoon season, and simple village life. The characters are painted with realistic flaws and immense warmth, making their joys and sorrows deeply relatable. It is a timeless tale that lingers in the heart long after the final page is turned."
     },
     {
@@ -126,7 +126,7 @@
       "description": "A touching children's historical novel about schoolboys during the 1971 Liberation War of Bangladesh.",
       "category": "Story",
       "available_quantity": 25,
-      "image_url": "/assets/Amar Bondhu Rashed.jpg",
+      "image_url": "/assets/AmarBondhuRashed.jpg",
       "details": "Amar Bondhu Rashed is an exceptionally moving novel written by Muhammed Zafar Iqbal, centered around the 1971 Bangladesh Liberation War. The story is narrated from the perspective of a schoolboy whose life changes forever when a mysterious, bright student named Rashed joins their class. Rashed quickly becomes a beloved friend, deeply invested in the political awakening and rights of his countrymen. When the Pakistan army cracks down on civilians, Rashed and his friends bravely participate in underground resistance efforts, risking everything for freedom. The book portrays the ultimate sacrifices made by young individuals with heartbreaking honesty and patriotic fervor. It is an essential read that educates younger generations about courage, friendship, and the heavy cost of liberty."
     },{
     "id": 14,
@@ -135,7 +135,7 @@
     "description": "Step-by-step tutorials on building robust web applications from frontend interfaces to backend databases.",
     "category": "Tech",
     "available_quantity": 31,
-    "image_url": "/assets/Full Stack Development.jpg",
+    "image_url": "/assets/FullStackDevelopment.jpg",
     "details": "This book is the ultimate roadmap for aspiring full-stack developers looking to build production-ready applications. It takes you systematically from basic HTML/CSS all the way to deploying complex, data-driven web platforms. The frontend section focuses heavily on modern, component-based frameworks like React and Vue.js. The backend chapters provide deep dives into Node.js, Express, and building secure RESTful APIs. Database management, utilizing both relational SQL and flexible NoSQL databases, is clearly explained with examples. You will build a complete, functional e-commerce application from scratch as a capstone project."
   },{
     "id": 15,
@@ -144,7 +144,7 @@
     "description": "A practical manual for integrating artificial intelligence and machine learning into modern software products.",
     "category": "Tech",
     "available_quantity": 56,
-    "image_url": "/assets/The AI Handbook.jpg",
+    "image_url": "/assets/TheAIHandbook.jpg",
     "details": "The AI Handbook bridges the critical gap between theoretical machine learning and practical software application. It provides actionable strategies for integrating intelligent AI features into existing software platforms and apps. Chapters cover natural language processing, computer vision, and building reliable predictive analytics engines. Ethical considerations, data privacy, and bias mitigation in AI models are thoroughly and thoughtfully examined. The book includes robust code snippets in Python, utilizing popular frameworks like TensorFlow and PyTorch. Prepare your business and your codebase for the AI-driven future with this definitive guide."
   },{
     "id": 16,
@@ -153,7 +153,7 @@
     "description": "Deep dive into designing scalable, resilient, and cost-effective cloud-native applications.",
     "category": "Tech",
     "available_quantity": 11,
-    "image_url": "/assets/Mastering Cloud Architecture.jpg",
+    "image_url": "/assets/MasteringCloudArchitecture.jpg",
     "details": "This comprehensive guide explores the architecture of modern cloud ecosystems from the ground up. It covers essential topics such as microservices, containerization with Docker, and orchestration using Kubernetes. Readers will learn industry best practices for designing systems that are highly available and scalable. The author shares invaluable insights from years of experience in deploying enterprise-level applications. Security, cost-optimization, and continuous integration pipelines are also discussed in extensive detail. Case studies of successful cloud migrations provide practical context for the theoretical concepts."
   }
   ]
