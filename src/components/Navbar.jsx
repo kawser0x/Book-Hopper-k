@@ -1,18 +1,47 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import logo from "../../public/assets/icon.png";
 
 const Navbar = () => {
+  const pathname = usePathname();
+
   const links = (
     <>
-      <li className="hover:underline" >
-        <Link href={"/"}>Home</Link>
+      <li>
+        <Link
+          href="/"
+          className={
+            pathname === "/"
+              ? "font-bold text-accent underline"
+              : "hover:underline"
+          }>
+          Home
+        </Link>
       </li>
-      <li className="hover:underline">
-        <Link href={"/"}>All Books</Link>
+      <li>
+        <Link
+          href="/allbook"
+          className={
+            pathname === "/allbook"
+              ? "font-bold text-accent underline"
+              : "hover:underline"
+          }>
+          All Books
+        </Link>
       </li>
-      <li className="hover:underline">
-        <Link href={"/"}>About Us</Link>
+      <li>
+        <Link
+          href="/profile"
+          className={
+            pathname === "/about"
+              ? "font-bold text-accent underline"
+              : "hover:underline"
+          }>
+          Profile
+        </Link>
       </li>
     </>
   );
@@ -38,7 +67,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             {links}
           </ul>
         </div>
@@ -47,14 +76,15 @@ const Navbar = () => {
           alt="Book Hopper Logo"
           width={40}
           height={40}
-          className="rounded-full"></Image>
+          className="rounded-full"
+        />
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="flex gap-2 px-1 ">{links}</ul>
+        <ul className="flex gap-4 px-1 menu menu-horizontal">{links}</ul>
       </div>
       <div className="navbar-end">
-        <Link href={"/"}>
-          <button className="btn btn-outline">Signin</button>{" "}
+        <Link href={"/signin"}>
+          <button className="btn btn-outline">Signin</button>
         </Link>
       </div>
     </div>

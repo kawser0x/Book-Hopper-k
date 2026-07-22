@@ -3,29 +3,32 @@ import Link from "next/link";
 import React from "react";
 
 const ShowBooks = ({ book }) => {
-  console.log(book);
   return (
-    <div>
-      <div className="card bg-base-100 shadow-sm max-w-full">
-        <figure className="p-5">
-          <Image
-            src={book.image_url}
-            alt={book.title}
-            width={100}
-            height={80}
-          />
-        </figure>
-        <div className="card-body ">
-          <h2 className="card-title">
-            {book.author}
-            <div className="badge badge-accent">{book.category}</div>
-          </h2>
-          <p>{book.description}</p>
-          <div className="card-actions ">
-            <Link href={`/books/${book.id}`}>
-              <button className="btn btn-primary ">Show Details</button>
-            </Link>
+    <div className="card bg-base-100 shadow-sm w-full h-full">
+      <figure className="p-5">
+        <Image
+          src={book.image_url}
+          alt={book.title}
+          width={150}
+          height={80}
+          className="object-contain"
+        />
+      </figure>
+
+      <div className="card-body flex flex-col">
+        <h2 className="card-title wrap-anywhere">
+          {book.author}
+          <div className="badge badge-accent whitespace-nowrap text-white">
+            {book.category}
           </div>
+        </h2>
+
+        <p className="grow">{book.description}</p>
+
+        <div className="card-actions mt-auto pt-4">
+          <Link href={`/books/${book.id}`} className="w-full">
+            <button className="btn btn-primary w-full">Show Details</button>
+          </Link>
         </div>
       </div>
     </div>
