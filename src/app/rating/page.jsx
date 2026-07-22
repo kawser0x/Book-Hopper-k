@@ -1,5 +1,5 @@
 import React from "react";
-import { FaStar } from "react-icons/fa"; // Changed to FaStar for solid filled stars
+import { FaStar } from "react-icons/fa"; 
 
 const RatingPage = () => {
   return (
@@ -22,7 +22,6 @@ const RatingPage = () => {
         </ul>
       </div>
 
-      {/* Completed Rating Part */}
       <div className="flex flex-col justify-center items-center text-center pt-10 md:pt-0 space-y-3">
         <h2 className="text-white font-bold text-xl">Overall Rating</h2>
 
@@ -30,7 +29,6 @@ const RatingPage = () => {
           4.8 <span className="text-lg font-normal text-white">/ 5.0</span>
         </div>
 
-        {/* Star Icon Group */}
         <div className="flex gap-1 text-yellow-400 text-2xl">
           <FaStar />
           <FaStar />
