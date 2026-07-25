@@ -38,4 +38,4 @@ Make sure you have Node.js installed on your system.
 
 1. **Clone the repository:**
    ```bash
-  https://github.com/kawser0x/Book-Hopper-k
+  git clone [https://github.com/kawser0x/Book-Hopper-k](https://github.com/kawser0x/Book-Hopper-k)]
