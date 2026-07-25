@@ -83,7 +83,7 @@ const Navbar = () => {
         <ul className="flex gap-4 px-1 menu menu-horizontal">{links}</ul>
       </div>
       <div className="navbar-end">
-        <Link href={"/signin"}>
+        <Link href={"/login"}>
           <button className="btn btn-outline">Signin</button>
         </Link>
       </div>

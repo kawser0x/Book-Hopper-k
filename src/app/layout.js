@@ -1,3 +1,6 @@
+import dns from "node:dns";
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
+
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -14,16 +17,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
-  
   return (
-    <html lang="en" data-theme= "light" className={`${openSans.variable} h-full antialiased`}>
+    <html
+      lang="en"
+      data-theme="light"
+      className={`${openSans.variable} h-full antialiased`}>
       <body className="container mx-auto">
         <Navbar />
         <main>
           <ToastContainer />
-          {children}</main>
-        <Footer/>
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
