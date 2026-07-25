@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Book Hopper 📚
 
-## Getting Started
+An online book-selling web application built with a modern tech stack, focusing on secure user authentication and a clean, responsive UI.
 
-First, run the development server:
+[Live Demo](https://book-hopper-k.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* **Framework:** [Next.js](https://nextjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) & [DaisyUI](https://daisyui.com/)
+* **Authentication:** [Better Auth](https://www.better-auth.com/)
+* **Icons & Animation:** `react-icons`, `react-fast-marquee`
+* **Forms & Sliders:** `react-hook-form`, `swiper`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+* **Secure Authentication:** Powered by Better Auth to handle user sign-ups and logins safely.
+* **Protected Routes:** Unauthenticated users cannot access restricted pages like user profiles or individual book detail pages.
+* **Dynamic Latest Books:** Highlights new arrivals using a smooth, moving marquee display.
+* **Interactive Sliders:** Utilizes Swiper for dynamic and fluid sliding galleries.
+* **User Forms:** Clean form collection workflows implemented with React Hook Form.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Getting Started
 
-## Deploy on Vercel
+Follow these steps to run the project locally on your machine.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Make sure you have Node.js installed on your system.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+  https://github.com/kawser0x/Book-Hopper-k
