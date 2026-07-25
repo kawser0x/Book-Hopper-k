@@ -7,6 +7,7 @@ import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { authClient } from "../lib/auth-client";
+import { GrGoogle } from "react-icons/gr";
 
 const LoginPage = () => {
   const router = useRouter();
@@ -34,6 +35,12 @@ const LoginPage = () => {
       toast.success("Login successful");
       router.push("/");
     }
+  };
+
+  const handleGoogleFun = async () => {
+    await authClient.signIn.social({
+      provider: "google",
+    });
   };
 
   return (
@@ -92,12 +99,11 @@ const LoginPage = () => {
             </Link>
           </p>
           <p className="divider">OR</p>
-          <p>
-            Login with{" "}
-            <Link className="text-green-500 underline" href={"/"}>
-              Google
-            </Link>
-          </p>
+          <button
+            onClick={handleGoogleFun}
+            className="btn w-full bg-black text-white">
+            <GrGoogle /> Log In with Google
+          </button>
         </div>
       </div>
     </div>
