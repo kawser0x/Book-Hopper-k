@@ -1,6 +1,7 @@
 import Catagorys from "@/components/Catagorys";
 import ShowBooks from "@/components/shared/ShowBooks";
 import SearchBox from "./SearchBox";
+import BookSlider from "@/components/BookSlider";
 
 const AllBookPage = async ({ searchParams }) => {
   const { catagory } = await searchParams;
@@ -24,7 +25,8 @@ const AllBookPage = async ({ searchParams }) => {
           <SearchBox />
         </div>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5 p-5">
+
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5 p-5 ">
         {filterbook.length > 0 ? (
           filterbook.map((book) => <ShowBooks key={book.id} book={book} />)
         ) : (
@@ -35,6 +37,7 @@ const AllBookPage = async ({ searchParams }) => {
           </div>
         )}
       </div>
+      <BookSlider books={res.slice(0, 6)} />
     </div>
   );
 };
