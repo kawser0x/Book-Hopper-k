@@ -4,8 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import logo from "../../public/assets/icon.png";
+import { authClient } from "@/app/lib/auth-client";
 
 const Navbar = () => {
+  const userData = authClient.useSession();
+  const user = userData.data?.user;
+
   const pathname = usePathname();
 
   const links = (
@@ -46,6 +50,10 @@ const Navbar = () => {
     </>
   );
 
+  const handleSignOut = async () => {
+    await authClient.signOut();
+  };
+
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
@@ -83,9 +91,34 @@ const Navbar = () => {
         <ul className="flex gap-4 px-1 menu menu-horizontal">{links}</ul>
       </div>
       <div className="navbar-end">
-        <Link href={"/login"}>
-          <button className="btn btn-outline">Signin</button>
-        </Link>
+        {!user && (
+          <Link href={"/login"}>
+            <button className="btn btn-outline">Signin</button>
+          </Link>
+        )}
+        {user && (
+          <div className="avatar flex gap-1 justify-center items-center">
+            <h2 className="font-bold">{user.name}</h2>
+            <div className="w-10 rounded-full overflow-hidden flex items-center justify-center bg-neutral text-neutral-content">
+              {user?.image ? (
+                <img
+                  src={user.image}
+                  alt={user?.name}
+                  referrerPolicy="no-referrer"
+                />
+              ) : (
+                <span className="text-xl font-bold">
+                  {user?.name?.charAt(0) || "K"}
+                </span>
+              )}
+            </div>
+            <button
+              onClick={handleSignOut}
+              className="btn btn-error rounded-full">
+              SignOut
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
